@@ -1,0 +1,52 @@
+/*Nav bar*/
+
+.top-nav{
+    box-shadow: 0 0 7px gray;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+    display: flex;
+}
+.logo{
+    margin: auto;
+    padding-left: 10%px;
+    display: flexbox;
+}
+
+/*A shit wtf*/
+
+.nav-link,.nav-link:link,.nav-link:visited{
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 1.2em;
+    font-family: 'Open Sans',sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+a:hover{
+    cursor: pointer;;
+}
+
+/**/
+
+
+
+
+
+/**/
+
+
+
+/*Photo scale*/
+
+.scale{
+    height: 5.5em;
+    scale: auto;
+}
+
+/*
+font-family: 'Material Icons Extended'*/
