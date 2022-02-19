@@ -1,51 +1,41 @@
 /*Nav bar*/
 
-.top-nav{
-    box-shadow: 0 0 7px gray;
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    box-shadow: 0px 0px 6px 0.6px rgb(126, 126, 126);
     position: fixed;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     width: 100%;
+    background-color: rgb(238, 238, 238);
+}
+
+li {
+    float : left;
+    display:flex;
+}
+li a {
+    display: block;
     text-align: center;
-    padding: 15px;
-    display: flex;
-}
-.logo{
-    margin: auto;
-    padding-left: 10%px;
-    display: flexbox;
-}
-
-/*A shit wtf*/
-
-.nav-link,.nav-link:link,.nav-link:visited{
-    justify-content: space-between;
-    padding: 10px;
-    font-size: 1.2em;
-    font-family: 'Open Sans',sans-serif;
-    color: black;
     text-decoration: none;
+    color: rgb(65, 84, 194);
+    padding: 26px 10px 0 25px;
+    font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    justify-content: center;
 }
-
-a:hover{
-    cursor: pointer;;
-}
-
-/**/
-
-
-
 
 
 /**/
 
-
-
-/*Photo scale*/
-
-.scale{
-    height: 5.5em;
-    scale: auto;
+.icon {
+    height: auto;
+    width: 13em;
+    padding: 6px 4em 9px 0;
+    display: block;
+    margin-left: auto;
 }
 
 /*
